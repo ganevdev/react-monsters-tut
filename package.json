@@ -2,7 +2,6 @@
   "name": "react-monsters-tut",
   "version": "0.1.0",
   "private": true,
-  "license": "MIT",
   "author": "Ivan Ganev <ganevio92@gmail.com>",
   "scripts": {
     "build": "react-scripts build",
@@ -22,6 +21,9 @@
       "last 1 safari version"
     ]
   },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
@@ -31,19 +33,12 @@
     "react-scripts": "3.3.0"
   },
   "devDependencies": {
-    "eslint": "^6.1.0",
-    "eslint-config-airbnb": "^18.0.1",
-    "eslint-config-prettier": "^6.7.0",
-    "eslint-plugin-import": "^2.19.1",
-    "eslint-plugin-jsx-a11y": "^6.2.3",
-    "eslint-plugin-prettier": "^3.1.1",
-    "eslint-plugin-react": "^7.17.0",
-    "eslint-plugin-react-hooks": "^1.7.0",
-    "prettier": "^1.19.1"
+    "eslint-plugin-prettier": "^3.1.2",
+    "prettier": "1.19.1"
   },
   "engines": {
     "node": ">=10.15.0",
-    "npm": ">=6.0.0",
-    "yarn": "! use npm !"
+    "npm": "! use yarn !",
+    "yarn": ">=1.0.0"
   }
 }

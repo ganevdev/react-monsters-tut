@@ -5,6 +5,6 @@ import App from './App';
 
 test('render React App text', () => {
   const { getByText } = render(<App />);
-  const test = getByText(/React App/i);
+  const test = getByText(/Monsters/i);
   expect(test).toBeInTheDocument();
 });
